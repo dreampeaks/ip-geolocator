@@ -8,9 +8,11 @@
 	<description>Java class library for obtaining geolocation information of an IP address.</description>
 	<developers>
 		<developer>
-			<id>Chadyka</id>
-			<name>Ádám Jakab</name>
-			<email>adamjakab13@gmail.com</email>
+			<id>jeszy</id>
+			<name>Péter Jeszenszky</name>
+			<email>jeszenszky.peter@inf.unideb.hu</email>
+			<organization>Faculty of Informatics, University of Debrecen</organization>
+			<organizationUrl>http://www.inf.unideb.hu/</organizationUrl>
 		</developer>
 	</developers>
 	<properties>
@@ -62,7 +64,6 @@
 					<mainClass>${mainClass}</mainClass>
 				</configuration>
 			</plugin>
-<!--
 			<plugin>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok-maven-plugin</artifactId>
@@ -76,7 +77,6 @@
 					</execution>
 				</executions>
 			</plugin>
--->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
