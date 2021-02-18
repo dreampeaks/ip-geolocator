@@ -8,11 +8,10 @@
 	<description>Java class library for obtaining geolocation information of an IP address.</description>
 	<developers>
 		<developer>
-			<id>jeszy</id>
-			<name>Péter Jeszenszky</name>
-			<email>jeszenszky.peter@inf.unideb.hu</email>
+			<id>adjakab</id>
+			<name>Ádám Jakab</name>
+			<email>adamjakab13@gmail.com</email>
 			<organization>Faculty of Informatics, University of Debrecen</organization>
-			<organizationUrl>http://www.inf.unideb.hu/</organizationUrl>
 		</developer>
 	</developers>
 	<properties>
@@ -26,7 +25,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>30.0-jre</version>
+			<version>30.1-jre</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
@@ -47,7 +46,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.18</version>
 			<scope>compile</scope>
-		</dependency>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.11.0</version>
+    </dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -113,7 +117,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
 				<version>3.0.0</version>
-			</plugin>
+      </plugin>
+      <plugin>
+        <groupId>fr.jcgay.maven.plugins</groupId>
+        <artifactId>buildplan-maven-plugin</artifactId>
+        <version>1.4</version>
+      </plugin>
 		</plugins>
 	</reporting>
 </project>
