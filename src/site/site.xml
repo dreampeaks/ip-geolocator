@@ -17,5 +17,17 @@
       <item name="ip-geolocator repository" href="https://github.com/Chadyka/ip-geolocator"/>
       <item name="Chadyka @github" href="https://github.com/Chadyka"/>
     </links>
+    <menu name="Overview">
+      <item name="Introduction" href="index.html"/>
+      <item name="Project info" href="project-info.html"/>
+      <item name="Project reports" href="project-reports.html"/>
+      <item name="Dependencies" href="dependencies.html"/>
+      <item name="Plugins" href="plugins.html"/>
+      <item name="Dependency info" href="dependency-info.html"/>
+      <item name="Distribution management" href="distribution-management.html"/>
+      <item name="Plugin management" href="plugin-management.html"/>
+      <item name="Summary" href="summary.html"/>
+      <item name="Team" href="team.html"/>
+    </menu>
   </body>
 </project>
